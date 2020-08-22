@@ -120,3 +120,24 @@ p {
 .box-4:hover {
     background-color: hsl(212, 86%, 64%, 0.12);
 }
+
+@media (max-width: 800px) {
+    .box-container {
+        flex-direction: column;
+    }
+    .box-1 {
+        margin-top: 600px;
+    }
+    .box-2 {
+        margin-top: 20px;
+    }
+    .box-container-2 {
+        align-self: auto;
+        margin-left: -20px;
+    }
+    .box-4 {
+        margin-top: 20px;
+        margin-right: 43px;
+        margin-bottom: 10px;
+    }
+}
