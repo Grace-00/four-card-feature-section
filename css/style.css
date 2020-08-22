@@ -104,3 +104,19 @@ p {
     margin-left: 25px;
     border-top-color: hsl(212, 86%, 64%);
 }
+
+.box-1:hover {
+    background-color: hsl(180, 62%, 55%, 0.12);
+}
+
+.box-2:hover {
+    background-color: hsl(0, 78%, 62%, 0.12);
+}
+
+.box-3:hover {
+    background-color: hsl(34, 97%, 64%, 0.12);
+}
+
+.box-4:hover {
+    background-color: hsl(212, 86%, 64%, 0.12);
+}
