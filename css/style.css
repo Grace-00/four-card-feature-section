@@ -68,3 +68,39 @@ img.icon {
     height: 50px;
     width: 50px;
 }
+
+h4 {
+    margin-top: 15px;
+    font-weight: bolder;
+    color: black;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+}
+
+.box-1 {
+    flex-flow: column;
+    margin-right: 25px;
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.box-2 {
+    margin-top: 40px;
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.box-3 {
+    flex-flow: column;
+    align-self: flex-start;
+    margin-top: 20px;
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.box-4 {
+    flex-flow: column;
+    align-self: center;
+    margin-left: 25px;
+    border-top-color: hsl(212, 86%, 64%);
+}
