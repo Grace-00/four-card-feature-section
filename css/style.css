@@ -47,3 +47,24 @@ img {
 .box-container-2 {
     align-self: flex-start;
 }
+
+.box {
+    width: 350px;
+    height: 230px;
+    text-align: left;
+    border: 6px solid;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 5px hsl(229, 6%, 66%);
+    padding: 20px 30px;
+}
+
+img.icon {
+    position: relative;
+    top: 20px;
+    left: 300px;
+    height: 50px;
+    width: 50px;
+}
